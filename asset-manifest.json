@@ -1,16 +1,15 @@
 {
   "files": {
-    "main.css": "/cwest144.github.io/static/css/main.f573abbe.css",
-    "main.js": "/cwest144.github.io/static/js/main.ad8c82b0.js",
+    "main.css": "/cwest144.github.io/static/css/main.c7932686.css",
+    "main.js": "/cwest144.github.io/static/js/main.695dc424.js",
     "static/js/787.43380e3b.chunk.js": "/cwest144.github.io/static/js/787.43380e3b.chunk.js",
-    "static/media/logo.svg": "/cwest144.github.io/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/cwest144.github.io/index.html",
-    "main.f573abbe.css.map": "/cwest144.github.io/static/css/main.f573abbe.css.map",
-    "main.ad8c82b0.js.map": "/cwest144.github.io/static/js/main.ad8c82b0.js.map",
+    "main.c7932686.css.map": "/cwest144.github.io/static/css/main.c7932686.css.map",
+    "main.695dc424.js.map": "/cwest144.github.io/static/js/main.695dc424.js.map",
     "787.43380e3b.chunk.js.map": "/cwest144.github.io/static/js/787.43380e3b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f573abbe.css",
-    "static/js/main.ad8c82b0.js"
+    "static/css/main.c7932686.css",
+    "static/js/main.695dc424.js"
   ]
 }
