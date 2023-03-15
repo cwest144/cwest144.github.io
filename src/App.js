@@ -3,6 +3,7 @@ import './App.css';
 import github from './icons/github.png';
 import linkedin from './icons/linkedin.png';
 import igem from './images/igem.png';
+import subwayApp from './images/subway-app.png';
 import Project from './components/project';
 
 function App() {
@@ -49,11 +50,11 @@ function App() {
               </div>
             </div>
             <div className="w-2/3 border-b border-b-gray-300"></div>
-            <div className='flex flex-col space-y-4 align-content-center'>
+            <div className='flex flex-col space-y-6 align-content-center'>
               <div className='text-2xl'>
-                Frontend
+                Frontend Projects
               </div>
-              <Project title="NYC Subway Train Arrivals App">
+              <Project title="NYC Subway Train Arrivals App" image={subwayApp}>
                 <div>
                   Languages: React Native, PHP
                 </div>
@@ -62,7 +63,7 @@ function App() {
                   The app has a minimal design and displays up-to-date information immediately upon opening the app.
                   I designed, built, and deployed a backend for the app which encodes the subway system information in a
                   Postgres database and fetches data from the MTA API every 30 seconds, so that requests from the frontend can be responded to quickly.
-                  The app is currently being beta tested and will be released on the app store soon.
+                  The app is currently in beta testing; it will be released on the app store soon.
                 </div>
                 <div>
                   <a href="https://github.com/cwest144/subway-app" target="_blank" rel="noreferrer" className="text-blue-800"> View the github for the frontend here</a>.
@@ -87,17 +88,25 @@ function App() {
             <div className="w-2/3 border-b border-b-gray-300"></div>
             <div className='flex flex-col space-y-4 pb-8 align-content-center'>
               <div className='text-2xl'>
-                Backend
+                Backend Projects
               </div>
-              <div>
-
-              </div>
+              <Project title="Amazon buybox tracking">
+                <div>
+                  Languages: PHP, Laravel
+                </div>
+                <div className="text-left">
+                  TODO
+                </div>
+                <div>
+                  <a href="https://github.com/cwest144/laravel-project-code-sample" target="_blank" rel="noreferrer" className="text-blue-800">View a code sample on github</a>.
+                </div>
+              </Project>
             </div>
           </div>
         </div>
       </main>
       <footer>
-      <div className="w-full flex flex-row py-4 md:py-8 px-4 md:px-16 bg-gray-800">
+        <div className="w-full flex flex-row py-4 md:py-8 px-4 md:px-16 bg-gray-800">
           <div className="w-full flex flex-row justify-center md:justify-start items-center space-x-6 max-w-screen-xl mx-auto">
             <a href="https://github.com/cwest144" target="_blank" rel="noreferrer">
               <img src={github} className="w-6" />
