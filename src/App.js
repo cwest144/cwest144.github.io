@@ -8,7 +8,7 @@ import Project from './components/project';
 
 function App() {
   return (
-    <div className="App w-screen">
+    <div className="App w-screen bg-white">
       <header className="sticky top-0">
         <div className="w-full flex flex-row py-4 px-4 md:px-16 border-b border-b-gray-400 bg-white/70 backdrop-blur">
           <div className="w-full flex flex-row items-center justify-between max-w-screen-xl mx-auto">
@@ -33,7 +33,7 @@ function App() {
               </div>
               <div className='flex flex-col space-y-3 text-left text-base mx-4 md:mx-16 lg:mx-36'>
                 <div>
-                I am a full stack software engineer with primary experience in PHP, Laravel, React, and React - Native.
+                I am a full stack software engineer with primary experience in PHP, Laravel, React, and React Native.
                 For the past year I've been in an entrepreneurial role at a <a href="https://highsidelabs.co" target="_blank" rel="noreferrer" className='text-blue-800'>small software consultancy </a>
                 and have had a hand in all aspects of projects from start to finish.
                 We pride ourselves on building organized and efficient applications; writing aesthetic and clean code; and creating effective and beautiful designs for our users.
@@ -109,10 +109,10 @@ function App() {
         <div className="w-full flex flex-row py-4 md:py-8 px-4 md:px-16 bg-gray-800">
           <div className="w-full flex flex-row justify-center md:justify-start items-center space-x-6 max-w-screen-xl mx-auto">
             <a href="https://github.com/cwest144" target="_blank" rel="noreferrer">
-              <img src={github} className="w-6" />
+              <img src={github} className="w-6" alt="guthub logo"/>
             </a>
             <a href="https://www.linkedin.com/in/chriswest144/" target="_blank" rel="noreferrer">
-              <img src={linkedin} className="w-6" />
+              <img src={linkedin} className="w-6" alt="linkedin logo"/>
             </a>
           </div>
         </div>
