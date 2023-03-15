@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/cwest144.github.io/static/css/main.7532a1e3.css",
-    "main.js": "/cwest144.github.io/static/js/main.310cfc19.js",
+    "main.css": "/cwest144.github.io/static/css/main.bdef9019.css",
+    "main.js": "/cwest144.github.io/static/js/main.d1c1323f.js",
     "static/js/787.43380e3b.chunk.js": "/cwest144.github.io/static/js/787.43380e3b.chunk.js",
+    "static/media/igem.png": "/cwest144.github.io/static/media/igem.2f8f5c365d5a07650582.png",
     "static/media/linkedin.png": "/cwest144.github.io/static/media/linkedin.abb498c31bd523dd8afe.png",
     "index.html": "/cwest144.github.io/index.html",
-    "main.7532a1e3.css.map": "/cwest144.github.io/static/css/main.7532a1e3.css.map",
-    "main.310cfc19.js.map": "/cwest144.github.io/static/js/main.310cfc19.js.map",
+    "main.bdef9019.css.map": "/cwest144.github.io/static/css/main.bdef9019.css.map",
+    "main.d1c1323f.js.map": "/cwest144.github.io/static/js/main.d1c1323f.js.map",
     "787.43380e3b.chunk.js.map": "/cwest144.github.io/static/js/787.43380e3b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7532a1e3.css",
-    "static/js/main.310cfc19.js"
+    "static/css/main.bdef9019.css",
+    "static/js/main.d1c1323f.js"
   ]
 }
