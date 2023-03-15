@@ -12,13 +12,13 @@ function App() {
       <header className="sticky top-0">
         <div className="w-full flex flex-row py-4 px-4 md:px-16 border-b border-b-gray-400 bg-white/70 backdrop-blur">
           <div className="w-full flex flex-row items-center justify-between max-w-screen-xl mx-auto">
-            <div className='text-md sm:text-lg'>
+            <div className='text-md sm:text-lg font-medium'>
               Chris West
             </div>
-            <div className='text-lg sm:text-xl'>
+            <div className='text-lg sm:text-xl font-medium'>
               Portfolio
             </div>
-            <a className='text-md sm:text-lg' href='http://cwest144.com' target='_blank' rel="noreferrer">
+            <a className='text-md sm:text-lg font-medium' href='http://cwest144.com' target='_blank' rel="noreferrer">
               Go to blog
             </a>
           </div>
@@ -31,7 +31,7 @@ function App() {
               <div className='text-xl'>
                 About
               </div>
-              <div className='flex flex-col space-y-3 text-left text-sm sm:text-base mx-4 md:mx-16 lg:mx-36'>
+              <div className='flex flex-col space-y-3 text-left text-base mx-4 md:mx-16 lg:mx-36'>
                 <div>
                 I am a full stack software engineer with primary experience in PHP, Laravel, React, and React - Native.
                 For the past year I've been in an entrepreneurial role at a <a href="https://highsidelabs.co" target="_blank" rel="noreferrer" className='text-blue-800'>small software consultancy </a>
