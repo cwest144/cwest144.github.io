@@ -56,7 +56,7 @@ function App() {
               </div>
               <Project title="NYC Subway Train Arrivals App" image={subwayApp}>
                 <div>
-                  Languages: React Native, PHP
+                  Languages: React Native, Javascript, PHP
                 </div>
                 <div className="text-left">
                   "Here" is an iOS app I designed to quickly show the upcoming trains at nearby subway stations.
@@ -66,12 +66,12 @@ function App() {
                   The app is currently in beta testing; it will be released on the app store soon.
                 </div>
                 <div>
-                  <a href="https://github.com/cwest144/subway-app" target="_blank" rel="noreferrer" className="text-blue-800"> View the github for the frontend here</a>.
+                  <a href="https://github.com/cwest144/subway-app" target="_blank" rel="noreferrer" className="text-blue-800"> View the github for the frontend here</a>
                 </div>
               </Project>
               <Project title="LabDAO iGEM Team Website" image={igem} reverse={true}>
                 <div>
-                  Languages: React, Next.js, Tailwind
+                  Languages: React, Next.js, Javascript, Tailwind
                 </div>
                 <div className="text-left">
                   Each year the iGEM Foundation presents a worldwide competition to further the development of synthetic biology.
@@ -79,7 +79,7 @@ function App() {
                   and this page serves to announce that team.
                 </div>
                 <div>
-                  <a href="https://igem.labdao.xyz/" target="_blank" rel="noreferrer" className="text-blue-800">View the website here</a>.
+                  <a href="https://igem.labdao.xyz/" target="_blank" rel="noreferrer" className="text-blue-800">View the website here</a>
                 </div>
               </Project>
               <div>
@@ -90,15 +90,32 @@ function App() {
               <div className='text-2xl'>
                 Backend Projects
               </div>
-              <Project title="Amazon buybox tracking">
+              <Project title="Amazon Buybox Tracking">
                 <div>
                   Languages: PHP, Laravel
                 </div>
                 <div className="text-left">
-                  TODO
+                  I designed and built a bespoke application to track the ranking of each of an Amazon third-party seller's tens-of-thousands of
+                  products relative to other listings for the same item. There were four primary components to this project. First, I designed and implemented a relational Postgres database schema
+                  with nine models, some with over 40,000 active listings. Second, I set up a system using Laravel jobs and queues to retrieve and
+                  process thousands of Amazon SQS notifications daily, which is how the application is notified of changes to a product's ranking.
+                  Third, I wrote all of the business logic to process each of the four notification types and update the database accordingly.
+                  Finally, I designed a REST API, which is how the client retrieves data from the application.
+                  This application has enabled the client to keep track of, and quickly respond to changes in, the competitiveness of thousands
+                  of their products, which is a feature that Amazon does not provide in an easily-accessible manner.
                 </div>
                 <div>
-                  <a href="https://github.com/cwest144/laravel-project-code-sample" target="_blank" rel="noreferrer" className="text-blue-800">View a code sample on github</a>.
+                  <a href="https://github.com/cwest144/laravel-project-code-sample" target="_blank" rel="noreferrer" className="text-blue-800">View a code sample on github</a>
+                </div>
+              </Project>
+              <Project title="Walmart and Amazon Inventory Updates">
+                <div>
+                  Languages: PHP, Laravel
+                </div>
+                <div className="text-left">
+                  Developed a cross-marketplace inventory management application using Laravel and PHP that utilizes
+                  Walmart's and Amazon's APIs to update inventory and product information, providing time savings and
+                  removing human error.
                 </div>
               </Project>
             </div>
