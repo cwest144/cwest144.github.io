@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/cwest144.github.io/static/css/main.6ebd61b0.css",
-    "main.js": "/cwest144.github.io/static/js/main.76927331.js",
+    "main.css": "/cwest144.github.io/static/css/main.5785deff.css",
+    "main.js": "/cwest144.github.io/static/js/main.f75e2944.js",
     "static/js/787.43380e3b.chunk.js": "/cwest144.github.io/static/js/787.43380e3b.chunk.js",
     "static/media/subway-app.png": "/cwest144.github.io/static/media/subway-app.2f414270cc63ac10099b.png",
     "static/media/igem.png": "/cwest144.github.io/static/media/igem.2f8f5c365d5a07650582.png",
     "static/media/linkedin.png": "/cwest144.github.io/static/media/linkedin.abb498c31bd523dd8afe.png",
     "index.html": "/cwest144.github.io/index.html",
-    "main.6ebd61b0.css.map": "/cwest144.github.io/static/css/main.6ebd61b0.css.map",
-    "main.76927331.js.map": "/cwest144.github.io/static/js/main.76927331.js.map",
+    "main.5785deff.css.map": "/cwest144.github.io/static/css/main.5785deff.css.map",
+    "main.f75e2944.js.map": "/cwest144.github.io/static/js/main.f75e2944.js.map",
     "787.43380e3b.chunk.js.map": "/cwest144.github.io/static/js/787.43380e3b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6ebd61b0.css",
-    "static/js/main.76927331.js"
+    "static/css/main.5785deff.css",
+    "static/js/main.f75e2944.js"
   ]
 }
