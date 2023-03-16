@@ -39,7 +39,7 @@ function App() {
                 We pride ourselves on building organized and efficient applications; writing aesthetic and clean code; and creating effective and beautiful designs for our users.
                 </div>
                 <div>
-                I also enjoy building mobile apps; I am currently working on an early-stage social media app for sharing and tracking movie, tv, and book recommendations with friends.
+                I also enjoy building mobile apps; I am currently working on an early-stage social media app for sharing and tracking movie, book, and article recommendations with friends.
                 </div>
                 <div>
                 I received my undergraduate degree in Computer Science and Mathematics from Yale. I currently live in Brooklyn and enjoy running, mixing up inventive cocktails, and seeing live music.
@@ -50,13 +50,13 @@ function App() {
               </div>
             </div>
             <div className="w-2/3 border-b border-b-gray-300"></div>
-            <div className='flex flex-col space-y-6 align-content-center'>
+            <div className='flex flex-col space-y-6 md:space-y-12 align-content-center'>
               <div className='text-2xl'>
                 Frontend Projects
               </div>
               <Project title="NYC Subway Train Arrivals App" image={subwayApp}>
-                <div>
-                  Languages: React Native, Javascript, PHP
+                <div className="text-left">
+                  Key Technologies: React Native, Javascript, PHP, Laravel, Postgres
                 </div>
                 <div className="text-left">
                   "Here" is an iOS app I designed to quickly show the upcoming trains at nearby subway stations.
@@ -70,8 +70,8 @@ function App() {
                 </div>
               </Project>
               <Project title="LabDAO iGEM Team Website" image={igem} reverse={true}>
-                <div>
-                  Languages: React, Next.js, Javascript, Tailwind
+                <div className="text-left">
+                  Key Technologies: React, Next.js, Javascript, Tailwind
                 </div>
                 <div className="text-left">
                   Each year the iGEM Foundation presents a worldwide competition to further the development of synthetic biology.
@@ -86,13 +86,13 @@ function App() {
               </div>
             </div>
             <div className="w-2/3 border-b border-b-gray-300"></div>
-            <div className='flex flex-col space-y-4 pb-8 align-content-center'>
+            <div className='flex flex-col space-y-6 md:space-y-12 pb-12 md:pb-24 align-content-center'>
               <div className='text-2xl'>
                 Backend Projects
               </div>
               <Project title="Amazon Buybox Tracking">
                 <div>
-                  Languages: PHP, Laravel
+                  Key Technologies: PHP, Laravel, Postgres
                 </div>
                 <div className="text-left">
                   I designed and built a bespoke application to track the ranking of each of an Amazon third-party seller's tens-of-thousands of
@@ -110,11 +110,12 @@ function App() {
               </Project>
               <Project title="Walmart and Amazon Inventory Updates">
                 <div>
-                  Languages: PHP, Laravel
+                  Key Technologies: PHP, Laravel, Postgres
                 </div>
                 <div className="text-left">
-                  Developed a cross-marketplace inventory management application using Laravel and PHP that utilizes
-                  Walmart's and Amazon's APIs to update inventory and product information, providing time savings and
+                  With my colleague, I designed and coded a cross-marketplace inventory update application using PHP and Laravel. The application utilizes
+                  the Amazon and Walmart APIs to automatically update a Postgres database when inventory counts change on the marketplace. I was responsible
+                  for researching and integrating with the Walmart API. This application automated a tedious process for the client, providing time savings and
                   removing human error.
                 </div>
               </Project>
