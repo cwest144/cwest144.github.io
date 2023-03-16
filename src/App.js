@@ -10,17 +10,22 @@ function App() {
   return (
     <div className="App w-screen bg-white">
       <header className="sticky top-0">
-        <div className="w-full flex flex-row py-4 px-4 md:px-16 border-b border-b-gray-400 bg-white/70 backdrop-blur">
+        <div className="w-full flex flex-row py-4 px-4 sm:px-8 md:px-16 border-b border-b-gray-400 bg-white/70 backdrop-blur">
           <div className="w-full flex flex-row items-center justify-between max-w-screen-xl mx-auto">
-            <div className='text-md sm:text-lg font-medium'>
+            <div className='basis-1/3 flex justify-start text-md sm:text-lg font-medium'>
               Chris West
             </div>
-            <div className='text-lg sm:text-xl font-medium'>
+            <div className='basis-1/3 text-lg sm:text-xl font-medium'>
               Portfolio
             </div>
-            <a className='text-md sm:text-lg font-medium' href='http://cwest144.com' target='_blank' rel="noreferrer">
-              Go to blog
-            </a>
+            <div className='basis-1/3 flex justify-end'>
+              <a href = "https://github.com/cwest144" target="_blank" rel="noreferrer" className='text-md sm:text-lg font-medium mr-4 md:mr-6'>
+                Github
+              </a>
+              <a className='text-md sm:text-lg font-medium' href='http://cwest144.com' target='_blank' rel="noreferrer">
+                Blog
+              </a>
+            </div>
           </div>
         </div>
       </header>
@@ -46,6 +51,9 @@ function App() {
                 </div>
                 <div className="pt-4 text-center">
                   Email: <a href = "mailto: chris@chriswest.dev">chris@chriswest.dev</a>
+                </div>
+                <div className="text-center">
+                  <a href = "https://github.com/cwest144" target="_blank" rel="noreferrer" className='text-blue-800'>Github: /cwest144</a>
                 </div>
               </div>
             </div>
