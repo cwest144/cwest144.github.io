@@ -3,7 +3,8 @@ import './App.css';
 import github from './icons/github.png';
 import linkedin from './icons/linkedin.png';
 import igem from './images/igem.png';
-import subwayApp from './images/subway-app.png';
+import here from './images/here.png';
+import freck from './images/freck.png';
 import Project from './components/project';
 
 function App() {
@@ -62,7 +63,22 @@ function App() {
               <div className='text-2xl'>
                 Frontend Projects
               </div>
-              <Project title="NYC Subway Train Arrivals App" image={subwayApp}>
+              <Project title="Freck - media sharing app" image={freck}>
+                <div className="text-left">
+                  Key Technologies: React Native, Javascript, PHP, Laravel
+                </div>
+                <div className="text-left">
+                  Freck is a full-fledged social media iOS app I built with a colleague. It's a platform for sharing book, movie,
+                  article, and video recommendations with friends, as well as for keeping track of your own "want-to-watch" list.
+                  The app is built in react native and features avatar storage in Amazon S3, two-factor authentication for logging in users,
+                  navigation with the react navigation package, integration with the iOS notification system, and styling with Native Base.
+                  I single-handedly built and deployed the PHP / Laravel backend for the app, which handles all API requests to external resources.
+                </div>
+                {/* <div>
+                  <a href="https://github.com/cwest144/subway-app" target="_blank" rel="noreferrer" className="text-blue-800"> View the github for the frontend here</a>
+                </div> */}
+              </Project>
+              <Project title="Here - NYC subway train arrivals app" image={here} reverse={true}>
                 <div className="text-left">
                   Key Technologies: React Native, Javascript, PHP, Laravel, Postgres
                 </div>
@@ -77,7 +93,7 @@ function App() {
                   <a href="https://github.com/cwest144/subway-app" target="_blank" rel="noreferrer" className="text-blue-800"> View the github for the frontend here</a>
                 </div>
               </Project>
-              <Project title="LabDAO iGEM Team Website" image={igem} reverse={true}>
+              <Project title="LabDAO iGEM Team Website" image={igem}>
                 <div className="text-left">
                   Key Technologies: React, Next.js, Javascript, Tailwind
                 </div>
