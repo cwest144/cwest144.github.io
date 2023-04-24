@@ -45,7 +45,7 @@ function App() {
                 We pride ourselves on building organized and efficient applications; writing aesthetic and clean code; and creating effective and beautiful designs for our users.
                 </div>
                 <div>
-                I also enjoy building mobile apps; I am currently working on an early-stage social media app for sharing and tracking movie, book, and article recommendations with friends.
+                I also enjoy building mobile apps; I am currently working on an early-stage social media app for sharing and tracking movie, TV show, book, and article recommendations with friends.
                 </div>
                 <div>
                 I received my undergraduate degree in Computer Science and Mathematics from Yale. I currently live in Brooklyn and enjoy running, mixing up inventive cocktails, and seeing live music.
@@ -54,7 +54,7 @@ function App() {
                   Email: <a href = "mailto: chris@chriswest.dev">chris@chriswest.dev</a>
                 </div>
                 <div className="text-center">
-                  <a href = "https://github.com/cwest144" target="_blank" rel="noreferrer" className='text-blue-800'>Github: /cwest144</a>
+                  Github: <a href = "https://github.com/cwest144" target="_blank" rel="noreferrer" className='text-blue-800'>/cwest144</a>
                 </div>
               </div>
             </div>
@@ -65,14 +65,14 @@ function App() {
               </div>
               <Project title="Freck - media sharing app" image={freck}>
                 <div className="text-left">
-                  Key Technologies: React Native, Javascript, PHP, Laravel
+                  Key Technologies: React Native, Javascript, PHP, Laravel, Postgres
                 </div>
                 <div className="text-left">
-                  Freck is a full-fledged social media iOS app I built with a colleague. It's a platform for sharing book, movie,
-                  article, and video recommendations with friends, as well as for keeping track of your own "want-to-watch" list.
-                  The app is built in react native and features avatar storage in Amazon S3, two-factor authentication for logging in users,
+                  Freck is a full-fledged social media iOS app I built with a colleague. It's a platform for sharing movie, TV show, book,
+                  article, and video recommendations with friends, as well as for keeping track of your own want-to-watch list.
+                  The app is built in React Native and features avatar storage in Amazon S3, two-factor authentication for logging in users,
                   navigation with the react navigation package, integration with the iOS notification system, and styling with Native Base.
-                  I single-handedly built and deployed the PHP / Laravel backend for the app, which handles all API requests to external resources.
+                  I single-handedly built and deployed the PHP / Laravel backend for the app, which is connected to a Postgres database and which handles all API requests to external resources.
                 </div>
                 {/* <div>
                   <a href="https://github.com/cwest144/subway-app" target="_blank" rel="noreferrer" className="text-blue-800"> View the github for the frontend here</a>
@@ -87,10 +87,9 @@ function App() {
                   The app has a minimal design and displays up-to-date information immediately upon opening the app.
                   I designed, built, and deployed a backend for the app which encodes the subway system information in a
                   Postgres database and fetches data from the MTA API every 30 seconds, so that requests from the frontend can be responded to quickly.
-                  The app is currently in beta testing; it will be released on the app store soon.
                 </div>
                 <div>
-                  <a href="https://github.com/cwest144/subway-app" target="_blank" rel="noreferrer" className="text-blue-800"> View the github for the frontend here</a>
+                  <a href="https://apps.apple.com/us/app/here-nyc-subway-arrivals/id6446206683" target="_blank" rel="noreferrer" className="text-blue-800">View the app on the store here</a>
                 </div>
               </Project>
               <Project title="LabDAO iGEM Team Website" image={igem}>
