@@ -20,10 +20,13 @@ function App() {
               Portfolio
             </div>
             <div className='basis-1/3 flex justify-end'>
-              <a href = "https://github.com/cwest144" target="_blank" rel="noreferrer" className='text-md sm:text-lg font-medium mr-4 md:mr-6'>
+              <a href = "https://github.com/cwest144" target="_blank" rel="noreferrer" className='text-md sm:text-lg font-medium mr-4 md:mr-6 lg:mr-8'>
                 Github
               </a>
-              <a className='text-md sm:text-lg font-medium' href='http://cwest144.com' target='_blank' rel="noreferrer">
+              <a href = "https://www.linkedin.com/in/chriswest144" target="_blank" rel="noreferrer" className='text-md sm:text-lg font-medium md:mr-6 lg:mr-8'>
+                LinkedIn
+              </a>
+              <a className='text-md sm:text-lg font-medium hidden md:block' href='http://cwest144.com' target='_blank' rel="noreferrer">
                 Blog
               </a>
             </div>
@@ -39,19 +42,20 @@ function App() {
               </div>
               <div className='flex flex-col space-y-3 text-left text-base mx-4 md:mx-16 lg:mx-36'>
                 <div>
-                I am a full stack software engineer with primary experience in PHP, Laravel, React, and React Native.
-                For the past year I've been in an entrepreneurial role at a <a href="https://highsidelabs.co" target="_blank" rel="noreferrer" className='text-blue-800'>small software consultancy </a>
-                and have had a hand in all aspects of projects from start to finish.
-                We pride ourselves on building organized and efficient applications; writing aesthetic and clean code; and creating effective and beautiful designs for our users.
+                I am a full stack software engineer with primary experience in Javascript, PHP, and Swift.
+                For much of my career I've had an e-commerce focus. At <a href="https://www.pandium.com" target="_blank" rel="noreferrer" className='text-blue-800'>Pandium</a>, an industry-leading integrations platform,
+                I was a primary developer on an integration between a top-five social media app and a fulfillment platform which synced over 100,000 orders daily.  
+                Before that I had an entrepreneurial role at <a href="https://highsidelabs.co" target="_blank" rel="noreferrer" className='text-blue-800'>Highside Labs</a>, a small software consultancy I founded with a friend.
+                We specialized in writing bespoke e-commerce integrations, primarily for Amazon 3rd party sellers.
                 </div>
                 <div>
-                I also enjoy building mobile apps; I am currently working on an early-stage social media app for sharing and tracking movie, TV show, book, and article recommendations with friends.
+                I also enjoy building mobile apps; I am currently working on adding features to my popular NYC subway arrivals app.
                 </div>
                 <div>
-                I received my undergraduate degree in Computer Science and Mathematics from Yale. I currently live in Brooklyn and enjoy running, mixing up inventive cocktails, and seeing live music.
+                I received my undergraduate degree in Computer Science and Mathematics from Yale. I currently live in Brooklyn and enjoy running, biking, and going to concerts.
                 </div>
                 <div className="pt-4 text-center">
-                  Email: <a href = "mailto: chris@chriswest.dev">chris@chriswest.dev</a>
+                  Email: <a href = "mailto: chris@chriswest.dev" className='text-blue-800'>chris@chriswest.dev</a>
                 </div>
                 <div className="text-center">
                   Github: <a href = "https://github.com/cwest144" target="_blank" rel="noreferrer" className='text-blue-800'>/cwest144</a>
@@ -65,7 +69,7 @@ function App() {
               </div>
               <Project title="Freck - media sharing app" image={freck}>
                 <div className="text-left">
-                  Key Technologies: React Native, Javascript, PHP, Laravel, Postgres
+                  Key Technologies: Javascript, PHP, PostgreSQL
                 </div>
                 <div className="text-left">
                   Freck is a full-fledged social media iOS app I built with a colleague. It's a platform for sharing movie, TV show, book,
@@ -78,15 +82,15 @@ function App() {
                   <a href="https://github.com/cwest144/subway-app" target="_blank" rel="noreferrer" className="text-blue-800"> View the github for the frontend here</a>
                 </div> */}
               </Project>
-              <Project title="Here - NYC subway train arrivals app" image={here} reverse={true}>
+              <Project title="Here - NYC subway arrivals app" image={here} reverse={true}>
                 <div className="text-left">
-                  Key Technologies: React Native, Javascript, PHP, Laravel, Postgres
+                  Key Technologies: Swift, PHP, PostgreSQL
                 </div>
                 <div className="text-left">
-                  "Here" is an iOS app I designed to quickly show the upcoming trains at nearby subway stations.
-                  The app has a minimal design and displays up-to-date information immediately upon opening the app.
-                  I designed, built, and deployed a backend for the app which encodes the subway system information in a
-                  Postgres database and fetches data from the MTA API every 30 seconds, so that requests from the frontend can be responded to quickly.
+                  "Here" is an iOS app I designed to quickly show the upcoming trains at nearby subway stations. When I released it in 2023 it quickly gained popularity and received praise, and briefly
+                  sat at spot #98 in most popular transportation apps on the app store. I was encouraged by the reception and have been consistently adding features and making performance improvements since then.
+                  Most notably, I redesigned the app in Swift (it was originally in React Native) and added Widget and Watch support. The backend, which I built in PHP/Laravel, handles the GTFS feed parsing and
+                  maintains the subway system information in a Postgres database.
                 </div>
                 <div>
                   <a href="https://apps.apple.com/us/app/here-nyc-subway-arrivals/id6446206683" target="_blank" rel="noreferrer" className="text-blue-800">View the app on the store here</a>
