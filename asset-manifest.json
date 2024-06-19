@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/cwest144.github.io/static/css/main.32f00c71.css",
-    "main.js": "/cwest144.github.io/static/js/main.e769c05c.js",
+    "main.css": "/cwest144.github.io/static/css/main.06113fad.css",
+    "main.js": "/cwest144.github.io/static/js/main.28854565.js",
     "static/js/787.43380e3b.chunk.js": "/cwest144.github.io/static/js/787.43380e3b.chunk.js",
-    "static/media/freck.png": "/cwest144.github.io/static/media/freck.89445fe8327f2279adb5.png",
-    "static/media/here.png": "/cwest144.github.io/static/media/here.2f414270cc63ac10099b.png",
+    "static/media/freck.png": "/cwest144.github.io/static/media/freck.ba67e4919a0808b0cc21.png",
+    "static/media/here.png": "/cwest144.github.io/static/media/here.78a27222e995da252450.png",
     "static/media/igem.png": "/cwest144.github.io/static/media/igem.2f8f5c365d5a07650582.png",
     "static/media/linkedin.png": "/cwest144.github.io/static/media/linkedin.abb498c31bd523dd8afe.png",
     "index.html": "/cwest144.github.io/index.html",
-    "main.32f00c71.css.map": "/cwest144.github.io/static/css/main.32f00c71.css.map",
-    "main.e769c05c.js.map": "/cwest144.github.io/static/js/main.e769c05c.js.map",
+    "main.06113fad.css.map": "/cwest144.github.io/static/css/main.06113fad.css.map",
+    "main.28854565.js.map": "/cwest144.github.io/static/js/main.28854565.js.map",
     "787.43380e3b.chunk.js.map": "/cwest144.github.io/static/js/787.43380e3b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.32f00c71.css",
-    "static/js/main.e769c05c.js"
+    "static/css/main.06113fad.css",
+    "static/js/main.28854565.js"
   ]
 }
