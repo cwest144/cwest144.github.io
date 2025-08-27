@@ -58,7 +58,7 @@ function App() {
                   I also enjoy building mobile apps; I am currently working on adding features to my popular NYC subway arrivals app.
                   </div>
                   <div>
-                  I received my undergraduate degree in Computer Science and Mathematics from Yale. I currently live in Brooklyn and enjoy running, biking, and finding good coffee spots.
+                  I received my undergraduate degree in Computer Science and Mathematics from Yale. I live in Brooklyn and enjoy running, biking, and finding good coffee spots.
                   </div>
                   <div className="pt-4 text-center">
                     Email: <a href = "mailto: chris@chriswest.dev" className='text-blue-800'>chris@chriswest.dev</a>
