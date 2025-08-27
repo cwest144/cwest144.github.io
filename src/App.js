@@ -48,8 +48,8 @@ function App() {
                 </div>
                 <div className='flex flex-col basis-2/3 xl:basis-3/4 space-y-3 text-left text-base'>
                   <div>
-                  I am a full stack software engineer with primary experience in Javascript, PHP, and Swift.
-                  For much of my career I've had an e-commerce focus. At <a href="https://www.pandium.com" target="_blank" rel="noreferrer" className='text-blue-800'>Pandium</a>, an industry-leading integrations platform,
+                  I am a fullstack software engineer with primary experience in Javascript, PHP, Python, and Swift.
+                  I'm passionate about working in climate or public transportation, or anything to make the world a bit better. At <a href="https://www.pandium.com" target="_blank" rel="noreferrer" className='text-blue-800'>Pandium</a>, an industry-leading integrations platform,
                   I was a primary developer on an integration between a top-five social media app and a fulfillment platform which synced over 100,000 orders daily.  
                   Before that I had an entrepreneurial role at <a href="https://highsidelabs.co" target="_blank" rel="noreferrer" className='text-blue-800'>Highside Labs</a>, a small software consultancy I founded with a friend.
                   We specialized in writing bespoke e-commerce integrations, primarily for Amazon 3rd party sellers.
@@ -104,7 +104,7 @@ function App() {
                   <a href="https://apps.apple.com/us/app/here-nyc-subway-arrivals/id6446206683" target="_blank" rel="noreferrer" className="text-blue-800">View on the Apple app store</a>
                 </div>
               </Project>
-              <Project title="LabDAO iGEM Team Website" image={igem}>
+              {/* <Project title="LabDAO iGEM Team Website" image={igem}>
                 <div className="text-left">
                   Key Technologies: React, Next.js, Javascript, Tailwind
                 </div>
@@ -116,7 +116,7 @@ function App() {
                 <div>
                   <a href="https://igem.labdao.xyz/" target="_blank" rel="noreferrer" className="text-blue-800">View the website here</a>
                 </div>
-              </Project>
+              </Project> */}
               <div>
               </div>
             </div>
