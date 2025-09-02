@@ -2,7 +2,11 @@
 
 This is a github pages site being forwarded to https://portfolio.cwest144.com
 
-## DEPLOY
+### LOCAL DEVELOPMENT
+
+    $ npm start
+
+### DEPLOY
 
     $ npm run build
 

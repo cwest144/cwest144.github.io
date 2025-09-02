@@ -2,7 +2,8 @@ import './App.css';
 
 import github from './icons/github.png';
 import linkedin from './icons/linkedin.png';
-import igem from './images/igem.png';
+import me from './images/me.jpg';
+// import igem from './images/igem.png';
 import here from './images/here.png';
 import freck from './images/freck.png';
 import Project from './components/project';
@@ -37,37 +38,44 @@ function App() {
         <div className="max-w-screen-xl mx-auto min-h-screen">
           <div className='flex flex-col w-full content-start items-center space-y-10 mt-4 md:mt-12 px-4 md:px-16'>
             <div className='flex flex-col space-y-3 align-content-center'>
-              <div className='text-xl'>
+              
+              <div className='text-2xl font-medium'>
                 About
               </div>
-              <div className='flex flex-col space-y-3 text-left text-base mx-4 md:mx-16 lg:mx-36'>
-                <div>
-                I am a full stack software engineer with primary experience in Javascript, PHP, and Swift.
-                For much of my career I've had an e-commerce focus. At <a href="https://www.pandium.com" target="_blank" rel="noreferrer" className='text-blue-800'>Pandium</a>, an industry-leading integrations platform,
-                I was a primary developer on an integration between a top-five social media app and a fulfillment platform which synced over 100,000 orders daily.  
-                Before that I had an entrepreneurial role at <a href="https://highsidelabs.co" target="_blank" rel="noreferrer" className='text-blue-800'>Highside Labs</a>, a small software consultancy I founded with a friend.
-                We specialized in writing bespoke e-commerce integrations, primarily for Amazon 3rd party sellers.
+              <div className='flex flex-col-reverse md:flex-row space-x-0 md:space-x-8 items-center lg:mx-16'>
+                <div className="flex basis-1/3 xl:basis-1/4 max-w-[300px] mt-8 md:mt-0">
+                    <img src={me} className="object-contain rounded-lg" alt="me"/>
                 </div>
-                <div>
-                I also enjoy building mobile apps; I am currently working on adding features to my popular NYC subway arrivals app.
-                </div>
-                <div>
-                I received my undergraduate degree in Computer Science and Mathematics from Yale. I currently live in Brooklyn and enjoy running, biking, and going to concerts.
-                </div>
-                <div className="pt-4 text-center">
-                  Email: <a href = "mailto: chris@chriswest.dev" className='text-blue-800'>chris@chriswest.dev</a>
-                </div>
-                <div className="text-center">
-                  Github: <a href = "https://github.com/cwest144" target="_blank" rel="noreferrer" className='text-blue-800'>/cwest144</a>
+                <div className='flex flex-col basis-2/3 xl:basis-3/4 space-y-3 text-left text-base'>
+                  <div>
+                  I am a fullstack software engineer with primary experience in Javascript, PHP, Python, and Swift.
+                  I'm passionate about working in climate or public transportation, or anything to make the world a bit better. At <a href="https://www.pandium.com" target="_blank" rel="noreferrer" className='text-blue-800'>Pandium</a>, an industry-leading integrations platform,
+                  I was a primary developer on an integration between a top-five social media app and a fulfillment platform which synced over 100,000 orders daily.  
+                  Before that I had an entrepreneurial role at <a href="https://highsidelabs.co" target="_blank" rel="noreferrer" className='text-blue-800'>Highside Labs</a>, a small software consultancy I founded with a friend.
+                  We specialized in writing bespoke e-commerce integrations, primarily for Amazon 3rd party sellers.
+                  </div>
+                  <div>
+                  I also enjoy building mobile apps; I am currently working on adding features to my popular NYC subway app.
+                  </div>
+                  <div>
+                  I received my undergraduate degree in Computer Science and Mathematics from Yale. I live in Brooklyn and enjoy running, biking, and finding my next favorite coffee shop.
+                  </div>
+                  <div className="pt-4 text-center">
+                    Email: <a href = "mailto: chris@chriswest.dev" className='text-blue-800'>chris@chriswest.dev</a>
+                  </div>
+                  <div className="text-center">
+                    Github: <a href = "https://github.com/cwest144" target="_blank" rel="noreferrer" className='text-blue-800'>/cwest144</a>
+                  </div>
                 </div>
               </div>
+
             </div>
             <div className="w-2/3 border-b border-b-gray-300"></div>
             <div className='flex flex-col space-y-6 md:space-y-12 align-content-center'>
-              <div className='text-2xl'>
-                Frontend Projects
+              <div className='text-2xl font-medium'>
+                Fullstack Projects
               </div>
-              <Project title="Freck - media sharing app" image={freck}>
+              <Project title="Freck &mdash; Media Sharing App" image={freck}>
                 <div className="text-left">
                   Key Technologies: Javascript, PHP, PostgreSQL
                 </div>
@@ -82,7 +90,7 @@ function App() {
                   <a href="https://github.com/cwest144/subway-app" target="_blank" rel="noreferrer" className="text-blue-800"> View the github for the frontend here</a>
                 </div> */}
               </Project>
-              <Project title="Here - NYC subway arrivals app" image={here} reverse={true}>
+              <Project title="Here &mdash; NYC Subway App" image={here} reverse={true}>
                 <div className="text-left">
                   Key Technologies: Swift, PHP, PostgreSQL
                 </div>
@@ -93,10 +101,13 @@ function App() {
                   maintains the subway system information in a Postgres database.
                 </div>
                 <div>
-                  <a href="https://apps.apple.com/us/app/here-nyc-subway-arrivals/id6446206683" target="_blank" rel="noreferrer" className="text-blue-800">View the app on the store here</a>
+                  <a href="https://apps.apple.com/us/app/here-nyc-subway-arrivals/id6446206683" target="_blank" rel="noreferrer" className="text-blue-800">View on the Apple app store</a>
+                </div>
+                <div>
+                  <a href="https://github.com/cwest144/mta-subway" target="_blank" rel="noreferrer" className="text-blue-800">View code excerpt on Github</a>
                 </div>
               </Project>
-              <Project title="LabDAO iGEM Team Website" image={igem}>
+              {/* <Project title="LabDAO iGEM Team Website" image={igem}>
                 <div className="text-left">
                   Key Technologies: React, Next.js, Javascript, Tailwind
                 </div>
@@ -108,13 +119,13 @@ function App() {
                 <div>
                   <a href="https://igem.labdao.xyz/" target="_blank" rel="noreferrer" className="text-blue-800">View the website here</a>
                 </div>
-              </Project>
+              </Project> */}
               <div>
               </div>
             </div>
             <div className="w-2/3 border-b border-b-gray-300"></div>
             <div className='flex flex-col space-y-6 md:space-y-12 pb-12 md:pb-24 align-content-center'>
-              <div className='text-2xl'>
+              <div className='text-2xl font-medium'>
                 Backend Projects
               </div>
               <Project title="Amazon Buybox Tracking">
@@ -132,7 +143,7 @@ function App() {
                   of their products, which is a feature that Amazon does not provide in an easily-accessible manner.
                 </div>
                 <div>
-                  <a href="https://github.com/cwest144/laravel-project-code-sample" target="_blank" rel="noreferrer" className="text-blue-800">View a code sample on github</a>
+                  <a href="https://github.com/cwest144/laravel-project-code-sample" target="_blank" rel="noreferrer" className="text-blue-800">View code sample on Github</a>
                 </div>
               </Project>
               <Project title="Walmart and Amazon Inventory Updates">
