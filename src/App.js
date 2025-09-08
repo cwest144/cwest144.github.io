@@ -24,7 +24,7 @@ function App() {
               <a href = "https://github.com/cwest144" target="_blank" rel="noreferrer" className='text-md sm:text-lg font-medium mr-4 md:mr-6 lg:mr-8'>
                 Github
               </a>
-              <a href = "https://www.linkedin.com/in/chriswest144" target="_blank" rel="noreferrer" className='text-md sm:text-lg font-medium md:mr-6 lg:mr-8'>
+              <a href = "https://www.linkedin.com/in/cwest144" target="_blank" rel="noreferrer" className='text-md sm:text-lg font-medium md:mr-6 lg:mr-8'>
                 LinkedIn
               </a>
               <a className='text-md sm:text-lg font-medium hidden md:block' href='http://cwest144.com' target='_blank' rel="noreferrer">
@@ -167,7 +167,7 @@ function App() {
             <a href="https://github.com/cwest144" target="_blank" rel="noreferrer">
               <img src={github} className="w-6" alt="guthub logo"/>
             </a>
-            <a href="https://www.linkedin.com/in/chriswest144/" target="_blank" rel="noreferrer">
+            <a href="https://www.linkedin.com/in/cwest144/" target="_blank" rel="noreferrer">
               <img src={linkedin} className="w-6" alt="linkedin logo"/>
             </a>
           </div>
